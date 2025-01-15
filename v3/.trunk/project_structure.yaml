@@ -1,0 +1,31 @@
+your_project:
+  app.py: APP_PY_CONTENT
+  messaging:
+    __init__.py: ''
+    message.py: MESSAGE_PY_CONTENT
+    messaging_proxy.py: MESSAGING_PROXY_PY_CONTENT
+  services:
+    __init__.py: ''
+    base_service.py: BASE_SERVICE_PY_CONTENT
+    concrete_service_a:
+      __init__.py: ''
+      service_a.py: SERVICE_A_PY_CONTENT
+    concrete_service_b:
+      __init__.py: ''
+      service_b.py: SERVICE_B_PY_CONTENT
+  interfaces:
+    __init__.py: ''
+    iservice.py: ISERVICE_PY_CONTENT
+  processors:
+    __init__.py: ''
+    sample_processor.py: SAMPLE_PROCESSOR_PY_CONTENT
+  logs:
+    __init__.py: ''
+    logger.py: LOGGER_PY_CONTENT
+  config:
+    __init__.py: ''
+    settings.py: SETTINGS_PY_CONTENT
+  docs:
+    README.md: DOCS_README_CONTENT
+  README.md: README_CONTENT
+  requirements.txt: REQUIREMENTS_CONTENT
